@@ -45,3 +45,45 @@ print("python" not in text)
 adjective = "Awesome"
 print(not adjective)
       
+#ex11
+text = 'good' or 'bad'
+print(text)
+
+#ex12
+text = 'good' and ' bad'
+print(text)
+
+#ex13
+text = 'Houston, we have a problem.'
+print(len(text))
+
+#ex14
+text = "caiac"
+print(list(text))
+
+#ex15
+text = "caiac"
+print(set(text))
+print(list(set(text)))   #pentru a lista elementele unice
+
+#ex16
+city1 = "Barcelona"
+city2 = "Berlin"
+print(city1 < city2)
+
+#ex17
+text = "python"
+print(text[2])
+
+#ex18
+text = "python"
+print(text[-2:])
+
+#ex19
+word = "python"
+print(word[::-1])
+
+#ex20
+text = '{} {} {}'.format('Take', 'Ianke', 'Cadr')
+print(text)
+
