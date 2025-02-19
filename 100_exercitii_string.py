@@ -129,3 +129,42 @@ print(name.startswith('John'))
 word = "banana"
 print(word.count("a"))
 
+#ex31
+text = "the good, the bad, the ugly"
+print(text.find("the"))
+
+#ex32
+text = 'My name is Bond, James Bond'
+print(text.rfind("Bond"))
+
+#ex33
+text = "the good, the bad, the ugly"
+print(text.index("the"))
+
+#ex34
+text = "Python is powerful."
+print(text.partition("is"))
+
+#ex35
+text = "Python is powerful."
+print(text.rpartition("is"))
+
+#ex36
+text="Hasta la vista, baby."
+print(text.replace("baby","honey"))
+
+#ex37
+text = "   Hit the road, Jack   "
+print(text.strip())
+
+#ex38
+text = "   What a wonderful world.   "
+print(text.rstrip())
+
+#ex39
+sentence = "May the Force be with you"
+print(sentence.split())
+
+#ex40
+email = "user@example.com"
+print(email.split('@')[1])
