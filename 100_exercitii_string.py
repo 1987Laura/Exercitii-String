@@ -87,3 +87,45 @@ print(word[::-1])
 text = '{} {} {}'.format('Take', 'Ianke', 'Cadr')
 print(text)
 
+#ex21
+movie = "The Godfather"
+character = "Don Vito Corleone"
+quote = "I'm gonna make him an offer he cant't refuse."
+print(f"In the movie '{movie}', {character} say: '{quote}'")
+
+#ex22
+nr = 123111456
+print(f'{nr:,}')
+
+#ex23
+text = '1_111'
+print(int(text))
+
+#ex24
+text = "python programming"
+print(text.title())
+
+#ex25
+text = "python"
+print(text.istitle())
+
+#ex26
+text = "I love Python"
+print(text.capitalize())
+
+#ex27
+text = "It's ALIVE! It's ALIVE!"
+print(text.swapcase())
+
+#ex27
+text = "Python is powerful."
+print(text.endswith("."))
+
+#ex29
+name = "John Doe"
+print(name.startswith('John'))
+
+#ex30
+word = "banana"
+print(word.count("a"))
+
