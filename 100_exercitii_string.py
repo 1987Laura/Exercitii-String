@@ -168,3 +168,55 @@ print(sentence.split())
 #ex40
 email = "user@example.com"
 print(email.split('@')[1])
+
+#ex41
+phrase ="  Spaces around  "
+print(len(phrase.strip().split()))
+
+#ex42
+text = "Hello, how are you?"
+print([len(word) for word in text.split()])
+
+#ex43
+text = "123"
+new_text = "1".join(text)
+print(new_text)
+
+#ex44
+sentence = "This is a sentence."
+print('-'.join(sentence.split()))
+
+#ex45
+days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+print(" I believe I can fly\n".join(days))
+
+#ex46
+text = "Python is fun"
+print(" ".join(text.split()[::-1]))
+
+#ex47
+text =  """Monday
+    Tuesday
+        Wednesday
+            Thursday
+                Friday
+                    Saturday
+                        Sunday
+                            learn
+                                Python"""
+print([linie.strip() for linie in text.splitlines()])
+
+#ex48
+text = "python"
+print(text[2::2])
+
+#ex49
+text = "Imagination is more important thank knowledge"
+print(text.removeprefix("Imagination"))
+
+#ex50
+text = "Be the change that you wish to see in the world."
+print(text.removesuffix("in the world."))
+
+
+
