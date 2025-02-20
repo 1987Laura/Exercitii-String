@@ -258,5 +258,46 @@ print(text.expandtabs(4))
 text = "python"
 print(text.isupper())
 
+#ex61
+text = "Python is easy to learn."
+print(text.upper().lower())
+
+#ex62
+text = "hello"
+print(text.rjust(10, '-'))
+
+#ex63
+text = "Python programming is fun!"
+print(text.center(30, '_'))
+
+#ex64
+text = "python"
+print(text.ljust(10, '*'))
+
+#ex65
+number = "42"
+print(number.zfill(5))
+
+#ex66
+text = "Is it safe?"
+print(text.replace("fun", "safe"))
+
+#ex67
+text = "110101011"
+print(int(text, 2))
+
+#ex68
+text = "ABCDEF"
+print(int(text,16))
+
+#ex69
+text = "Python"
+print(list(enumerate(text)))
+
+#ex70
+text = "Python"
+print(''.join(char * 2 for char in text))
+
+
 
 
