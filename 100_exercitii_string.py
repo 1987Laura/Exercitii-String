@@ -296,8 +296,45 @@ print(list(enumerate(text)))
 
 #ex70
 text = "Python"
-print(''.join(char * 2 for char in text))
+print(' '.join(char * 2 for char in text))
 
+#ex71
+text = "Python programming is fun!"
+print(text.split()[-1])
 
+#ex72
+text = "May the Force be with you."
+print(text[:10])
 
+#ex73
+text = "You talking to me?"
+print(text[:11] if len(text)>11 else text)
 
+#ex74
+text = "May the Force be with you."
+print(" ".join(text.split()[:3]))
+
+#ex75
+text = "!emosewa si nohtyP"
+print(text[::-1])
+
+#ex76
+text = "I'm gonna make him an offer he can't refuse."
+print(' '.join(word[::-1] for word in text.split()))
+
+#ex77
+text = "Why don't scientists trust atoms? Because they make up everything!"
+print(' '.join(reversed(text.split())))
+
+#ex78
+days = "Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday"
+print(", ".join(sorted(days.split(", "))))
+
+#ex79
+text = "Python is awesome"
+reply = "Yes, it is" if text.isalpha() else "no, it's not"
+print(reply)
+
+#ex80
+text = "Python is easy; python is powerful; python is versatile."
+print(text.lower().split().count("Python".lower()))
