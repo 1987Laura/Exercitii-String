@@ -338,3 +338,44 @@ print(reply)
 #ex80
 text = "Python is easy; python is powerful; python is versatile."
 print(text.lower().split().count("Python".lower()))
+
+#ex81
+text = "Oh-oh-oh-oh-oh, oh-oh-oh-oh, oh-oh-oh / Caught in a bad romance..."
+print(any(char.istitle() for char in text))
+
+#ex82
+text = "Python"
+print(any(char.isdigit() for char in text))
+
+#ex83
+text = "area 51"
+print("".join(word for word in text if word.isalpha()))
+
+#ex84
+text = ""
+print(any(char.isalnum() for char in text))
+
+#ex85
+text = "Let s loose them &*"
+print(all(char.isalpha() or char.isdigit() for char in text))
+
+#ex86
+text = "Python https://www.python.org/ is powerful."
+print(any([word.startswith("http") and "." in word for word in text.split()]))
+
+#ex87
+text = "Python is easy."
+print(sum(1 for char in text if char.lower() in "aeiou"))
+
+#ex88
+text = "to be or not to be that is the question"
+print(" ".join([word.title() for word in text.split()]))
+
+#ex89
+text = "to be or not to be that is the question"
+print({word: text.split().count(word) for word in set(text.split())})
+
+#ex90
+text = "the cat chased the dog"
+print(text.replace("cat", "***").replace("dog", "cat").replace('***', "dog"))
+

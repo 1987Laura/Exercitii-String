@@ -1,2 +1,1 @@
-text = "Pythonisawesome"
-print(text.isalpha())
+print(word for word in "area 51" if word.isalpha())
