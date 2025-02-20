@@ -218,5 +218,45 @@ print(text.removeprefix("Imagination"))
 text = "Be the change that you wish to see in the world."
 print(text.removesuffix("in the world."))
 
+#ex51
+text = "abc123"
+print(text.isalnum())
+
+#ex52
+text = "abc123"
+print(text.isalpha())
+
+#ex53
+text = "123 "
+print(text.isnumeric())
+
+#ex54
+text = "10o0"
+print(text.isdecimal())
+
+#ex55
+text = " 12345 "
+print(text.isdigit())
+
+#ex56
+text = "python"
+print(text.isspace())
+
+#ex57
+text = "I\'m king of \the world"
+print(text)
+
+#ex58
+text = "My #1 favorite is you? \n"
+print(text.isprintable())
+
+#ex59
+text = "Hello\tWorld"
+print(text.expandtabs(4))
+
+#ex60
+text = "python"
+print(text.isupper())
+
 
 
